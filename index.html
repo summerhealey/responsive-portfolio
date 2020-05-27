@@ -10,7 +10,13 @@
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <!--Individualized CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/index.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
     <!--Optional Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -24,13 +30,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-        
+
 </head>
 
 <body>
     <!-- Start Nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
-        <span class="navbar-brand mb-1 h1">Summer Healey</span>
+        <a class="navbar-brand mb-1 h1" href="index.html">Summer Healey<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,44 +58,45 @@
     <!-- End Nav -->
 
     <main>
-        <div class="container">
-            <form class="col-lg-9 col-md-12 border">
+        <div class="container-fluid">
+            <form class="col-lg-9 col-md-12 border-dark">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="page-header border-bottom">
+                        <div class="page-header border-dark border-bottom">
                             <h1>About Me</h1>
                         </div>
                     </div>
-                </div>        
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="http://placehold.it/250x200" alt="Summer Healey" class="img-thumbnail">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut
-                                dictum tristique,
-                                nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                                felis vulputate pretium.
-                            </p>
-                            <p>
-                                Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                                non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                                luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                                neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                                dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                                posuere sem congue a. Nunc id nisi et neque fringilla ultricies.
-                            </p>
-                            <p>    
-                                Nunc id nisi et neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                                dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                                posuere sem congue a.
-                            </p>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="assets/images/about-me.jpg" alt="Summer Healey" class="img-thumbnail">
+                        <p>
+                            Summer Healey is a burgeoning web developer and rehabilitated market researcher who is
+                            looking to help small businesses gain the competitive edge in their marketing and operations
+                            through responsive web design.
+                        </p>
+                        <p>
+                            Before transitioning into web development, Summer spent the past five years working in a
+                            variety of industries developing tools and processes for customer service operations and
+                            brand marketing. After working in a variety of industries and positions, she found her
+                            passion for developing tools and resources for small businesses and now is completing UNC's
+                            Coding Bootcamp to develop the skills to deploy these tools across platforms.
+                        </p>
+                        <p>
+                            Summer enjoys trying new games (Cards Against Humanity, anyone?), tap dancing, and learning
+                            about new programming languages.
+                        </p>
+                        <p>
+                            Summer is available for freelance web development and customer service strategy consulting.
+                            You can reach Summer by using the <a href="contact.html">contact form</a> provided.
+                        </p>
                     </div>
                 </div>
-        </div>        
+        </div>
+        </div>
     </main>
     <footer id="footer" class="navbar fixed-bottom bg-dark border-top">
-          <small>Copyright &copy; Summer Healey</small>
+        <small>Copyright &copy; Summer Healey</small>
         </div>
     </footer>
 </body>

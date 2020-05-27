@@ -1,0 +1,12 @@
+button {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    background-color: #343a40;
+    line: #ffffff;
+}
+
+.form-row {
+    color: black;
+    outline-color: black;
+    margin-top: .5rem; 
+}

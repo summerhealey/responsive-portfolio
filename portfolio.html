@@ -10,7 +10,13 @@
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <!--Individualized CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/portfolio.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
     <!--Optional Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -29,9 +35,8 @@
 
 <body>
     <!-- Start Nav -->
-    <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
-        <span class="navbar-brand mb-1 h1">Summer Healey</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-thick border-light border-bottom">
+        <a class="navbar-brand mb-1 h1" href="index.html">Summer Healey<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,64 +58,64 @@
     <!-- End Nav -->
 
     <main>
-        <div class="container">
-            <form class="col-lg-9 col-md-12 border">
+        <div class="container-fluid">
+            <form class="col-lg-9 col-md-12 border-dark">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="page-header border-bottom">
+                        <div class="page-header border-dark border-bottom">
                             <h1>Portfolio</h1>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-around">
-                    <div class="card bg-clear text-dark">
-                        <img class="card-img" src="http://placehold.it/200x200" alt="Example #1">
+                    <div class="card bg-clear text-white border-dark">
+                        <img class="card-img" src="assets/images/code-refactor.jpg" alt="Code Refactor" class="img-thumbnail">
                         <div class="card-img-overlay d-flex flex-column justify-content-center">
-                            <h5 class="card-title text-center">Example #1</h5>
+                            <h5 class="card-title text-center">Code Refactor</h5>
                         </div>
                     </div>
 
-                    <div class="card bg-clear text-dark">
-                        <img class="card-img" src="http://placehold.it/200x200" alt="Example #2">
+                    <div class="card bg-clear text-white border-dark">
+                        <img class="card-img" src="assets/images/responsive-portfolio.jpg" alt="Responsive Portfolio" class="img-thumbnail">
                         <div class="card-img-overlay d-flex flex-column justify-content-center">
-                            <h5 class="card-title text-center">Example #2</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-around">
-                    <div class="card bg-clear text-dark">
-                        <img class="card-img" src="http://placehold.it/200x200" alt="Example #3">
-                        <div class="card-img-overlay d-flex flex-column justify-content-center">
-                            <h5 class="card-title text-center">Example #3</h5>
-                        </div>
-                    </div>
-
-                    <div class="card bg-clear text-dark">
-                        <img class="card-img" src="http://placehold.it/200x200" alt="Example #4">
-                        <div class="card-img-overlay d-flex flex-column justify-content-center">
-                            <h5 class="card-title text-center">Example #4</h5>
+                            <h5 class="card-title text-center">Responsive Portfolio</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="row justify-content-around">
-                    <div class="card bg-clear text-dark">
-                        <img class="card-img" src="http://placehold.it/200x200" alt="Example #5">
+                    <div class="card bg-clear text-white border-dark">
+                        <img class="card-img" src="assets/images/password-generator.jpg" alt="Password Generator" class="img-thumbnail">
                         <div class="card-img-overlay d-flex flex-column justify-content-center">
-                            <h5 class="card-title text-center">Example #5</h5>
+                            <h5 class="card-title text-center">Password Generator</h5>
                         </div>
                     </div>
 
-                    <div class="card bg-clear text-dark">
-                        <img class="card-img" src="http://placehold.it/200x200" alt="Example #6">
+                    <div class="card bg-clear text-white border-dark">
+                        <img class="card-img" src="assets/images/code-quiz.jpg" alt="Code Quiz" class="img-thumbnail">
                         <div class="card-img-overlay d-flex flex-column justify-content-center">
-                            <h5 class="card-title text-center">Example #6</h5>
+                            <h5 class="card-title text-center">Code Quiz</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-around">
+                    <div class="card bg-clear text-white border-dark">
+                        <img class="card-img" src="assets/images/day-planner.jpg" alt="Day Planner" class="img-fluid img-thumbnail">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center">
+                            <h5 class="card-title text-center">Day Planner</h5>
+                        </div>
+                    </div>
+
+                    <div class="card bg-clear text-white border-dark">
+                        <img class="card-img" src="assets/images/weather-dashboard.jpg" alt="Weather Dashboard" class="img-thumbnail">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center">
+                            <h5 class="card-title text-center">Weather Dashboard</h5>
                         </div>
                     </div>
                 </div>
     </main>
-    <footer id="footer" class="navbar fixed-bottom bg-dark border-top">
+    <footer id="footer" class="navbar fixed-bottom bg-dark border-top border-light border-thick">
         <small>Copyright &copy; Summer Healey</small>
         </div>
     </footer>
