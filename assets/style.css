@@ -1,7 +1,10 @@
+/*Site Styling*/
 body {
     background-color:#ADD8E6;
     color: #000000;
 }
+
+/*Site Navigation*/
 
 h1 {
     font-family: 'Pacifico', cursive;
@@ -25,6 +28,8 @@ nav {
 .navbar-dark .navbar-nav .nav-link {
     color: white;
 }
+
+/*Site Content*/
 
 main {
     padding-top: 5rem;
@@ -52,10 +57,15 @@ p {
     float: inline-start;
 }
 
+a {
+    color: white; 
+}
+
 .row {
     margin-top: 2%;
 }
 
+/*Site Footer*/
 .navbar small {
     color: #ffffff;
     margin-left: auto;

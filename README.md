@@ -32,7 +32,7 @@ Portfolio Images Sourced: https://www.pexels.com/collections/responsive-portfoli
 
 Validation of Site Available Here: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsummerhealey.github.io%2Fresponsive-portfolio%2F 
 
-# Criteria Determination: Standards Satisfactorily Met
+# Criteria Determination: 
 
 This template provides a fully responsive website for an individual porfolio that meets the above specifications per 2020 guidelines for Bootstrap 4. 
 

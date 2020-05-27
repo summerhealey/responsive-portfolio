@@ -1,7 +1,15 @@
+/*Form Alignment*/
+.form-row {
+    padding-top: 1%;
+}
+
+/*Button Styling*/
 button {
     margin-bottom: 1rem;
     color: #ffffff;
     background-color: #343a40;
-    border-color: #ffffff;
+    border-color: #000000;
 }
+
+
 
