@@ -26,6 +26,10 @@ Functional, deployed application includes the following:
 
 * Properly utilizes Bootstrap components and grid system.
 
+* Includes links to GitHub, individual repositories, deployed sites, and LinkedIn
+
+* Includes access to a PDF of resume
+
 Media Queries: Media queries have not been used to provide responsiveness to ensure that individual components remained responsive during customization to even beginner developers. 
 
 Portfolio Images Sourced: https://www.pexels.com/collections/responsive-portfolio-tx3veuc/
