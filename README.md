@@ -32,7 +32,7 @@ Functional, deployed application includes the following:
 
 Media Queries: Media queries have not been used to provide responsiveness to ensure that individual components remained responsive during customization to even beginner developers. 
 
-Portfolio Site can be accessed [!here.](https://summerhealey.github.io/responsive-portfolio/)
+Portfolio Site can be accessed [here.](https://summerhealey.github.io/responsive-portfolio/)
 
 Validation of Site Available Here: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsummerhealey.github.io%2Fresponsive-portfolio%2F 
 
